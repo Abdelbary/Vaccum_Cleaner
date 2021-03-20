@@ -30,12 +30,14 @@
 The project emulate Motor Speed Control system using OS in and output files.
 
 #### Release SystemView:
-![Release System](Images/SystemView.PNG)
+
+![Release System](Images/systemView.PNG)
 
 #### uniteTesting SystemView:
 ![testing System](Images/systemTestView.PNG)
 
 #### Static/Dynamic Design:
+
 ![static/Dynamic Design](Images/Static_dynamic.PNG)
 
 
@@ -48,6 +50,7 @@ The project emulate Motor Speed Control system using OS in and output files.
 ![Speed Control State Machine](Images/StateMachine.PNG)
 
 #### 1-Switch Coverage Diagram
+
 ![1-Switch Coverage](Images\1-SwCoverage.PNG)
 
 * I chossed to skip the leafe branches of the left side tree as it's already tested as part of the right side
