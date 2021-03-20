@@ -30,22 +30,22 @@
 The project emulate Motor Speed Control system using OS in and output files.
 
 #### Release SystemView:
-![Release System](Images\SystemView.PNG)
+![Release System](Images/SystemView.PNG)
 
 #### uniteTesting SystemView:
-![testing System]Images\systemTestView.PNG)
+![testing System](Images/systemTestView.PNG)
 
 #### Static/Dynamic Design:
-![static/Dynamic Design](Images\Static_dynamic.PNG)
+![static/Dynamic Design](Images/Static_dynamic.PNG)
 
 
 #### Switch Important States
-![Switch States](Images\StatesTable.PNG)
+![Switch States](Images/StatesTable.PNG)
 
 ##### The states are represented in the motor_test.c file and used in testing
 
 #### Speed Control State Machine
-![Speed Control State Machine](Images\StateMachine.PNG)
+![Speed Control State Machine](Images/StateMachine.PNG)
 
 #### 1-Switch Coverage Diagram
 ![1-Switch Coverage](Images\1-SwCoverage.PNG)
@@ -56,11 +56,11 @@ The project emulate Motor Speed Control system using OS in and output files.
 #### uniteTesting Cases for SpeedControl Task:
 * This to test the transition between states one transation per test Testing both valid and invalid transitions.
 
-![static/Dynamic Design](Images\TestsPNG.PNG)
+![static/Dynamic Design](Images/TestsPNG.PNG)
 
 #### Coverage Statistics:
 * using gcov tool, The full documented statistics can be found under Documentation/CodeCoverageStatistics.
-![Testing Covergae](Images\CoverageRate.PNG)
+![Testing Covergae](Images/CoverageRate.PNG)
 
 
 #### EP testing has been done for the following funtions:
