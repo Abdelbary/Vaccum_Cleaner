@@ -51,7 +51,7 @@ The project emulate Motor Speed Control system using OS in and output files.
 
 #### 1-Switch Coverage Diagram
 
-![1-Switch Coverage](Images\OneSwCoverage.PNG)
+![1-Switch Coverage](Images/OneSwCoverage.PNG)
 
 * I chossed to skip the leafe branches of the left side tree as it's already tested as part of the right side
 * The test function to test switch coverage are 6 functions one for each branch, The naming convention is:
