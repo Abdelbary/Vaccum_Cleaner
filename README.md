@@ -1,8 +1,7 @@
 # Motor Speed Control Using TDD
-##### Mahmoud Abdelbary
 * this project is implementaion of the Swift Act requirment of Speed Control Module 
 
-###### Requirments can be found under documentation/Requirments.pdf
+#### Requirments can be found under documentation/Requirments.pdf
 
 ### Dependencies:
 1. Ceedling FramWork [link](http://www.throwtheswitch.org/ceedling).
