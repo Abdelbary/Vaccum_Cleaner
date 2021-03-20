@@ -1,0 +1,11 @@
+---
+build/test/mocks/mock_button.c:
+- TEST
+src/motor.c:
+- TEST
+src/button.c:
+- TEST
+build/test/mocks/mock_motor.c:
+- TEST
+src/main.c:
+- TEST

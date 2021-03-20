@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: test_main.c
+:successes:
+- :test: test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+- :test: test_main_should_call_motor_init
+  :line: 41
+  :message: ''
+  :unity_test_time: 0
+- :test: test_main_should_call_button_init
+  :line: 57
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.03664579999167472

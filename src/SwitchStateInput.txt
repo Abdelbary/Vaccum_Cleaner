@@ -1,0 +1,3 @@
++VE_switchState    -VE_switchState    P_switchState    P_TIME_IN_MS
+BTN_RELEASED    BTN_RELEASED    BTN_PRESSED    50
+BTN_PREPRESSED    BTN_RELEASED    BTN_RELEASED    0

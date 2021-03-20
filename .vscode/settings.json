@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "unity.h": "c",
+        "button.h": "c",
+        "config.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "motor.h": "c",
+        "mock_motor.h": "c"
+    }
+}

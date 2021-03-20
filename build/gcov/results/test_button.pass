@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_button.c
+:successes:
+- :test: test_button_init_should_returnNoError_when_calledFirstTime
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+- :test: test_button_init_should_return_multiInitError_when_initaitedMultipleTimes
+  :line: 42
+  :message: ''
+  :unity_test_time: 0
+- :test: test_button_init_should_initalizeBtnStateToRelased
+  :line: 58
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Button_getState_should_returnTheStateOFGivenButton
+  :line: 88
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Button_getState_should_return_PARAM_OUT_OF_RANG_when_passed_OFR_PARM
+  :line: 111
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Button_updateState_should_return_OK_when_moduleIsInited
+  :line: 202
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Button_updateState_should_return_MODUL_IS_IDLE_when_moduleIsNotInited
+  :line: 223
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Button_updateState_should_update_buttonsState
+  :line: 245
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.04401579999830574
