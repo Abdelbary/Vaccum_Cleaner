@@ -2,6 +2,7 @@
 ##### Mahmoud Abdelbary
 * this project is implementaion of the Swift Act requirment of Speed Control Module 
 
+###### Requirments can be found under documentation/Requirments.pdf
 
 ### Dependencies:
 1. Ceedling FramWork [link](http://www.throwtheswitch.org/ceedling).
@@ -29,36 +30,37 @@
 The project emulate Motor Speed Control system using OS in and output files.
 
 #### Release SystemView:
-![Release System](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\SystemView.PNG)
+![Release System](Images\SystemView.PNG)
 
 #### uniteTesting SystemView:
-![testing System](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\systemTestView.PNG)
+![testing System]Images\systemTestView.PNG)
 
 #### Static/Dynamic Design:
-![static/Dynamic Design](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\Static_dynamic.PNG)
+![static/Dynamic Design](Images\Static_dynamic.PNG)
 
 
 #### Switch Important States
-![Switch States](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\StatesTable.PNG)
+![Switch States](Images\StatesTable.PNG)
 
 ##### The states are represented in the motor_test.c file and used in testing
 
 #### Speed Control State Machine
-![Speed Control State Machine](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\StateMachine.PNG)
+![Speed Control State Machine](Images\StateMachine.PNG)
 
 #### 1-Switch Coverage Diagram
-![1-Switch Coverage](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\1-SwCoverage.PNG)
+![1-Switch Coverage](Images\1-SwCoverage.PNG)
 
 * I chossed to skip the leafe branches of the left side tree as it's already tested as part of the right side
 * The test function to test switch coverage are 6 functions one for each branch, The naming convention is:
     * test_SpeedControlTask_switchCoverage_Tree<BranchNumber>Branch_<Sequence>(void)
 #### uniteTesting Cases for SpeedControl Task:
 * This to test the transition between states one transation per test Testing both valid and invalid transitions.
-![static/Dynamic Design](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\TestsPNG.PNG)
+
+![static/Dynamic Design](Images\TestsPNG.PNG)
 
 #### Coverage Statistics:
 * using gcov tool, The full documented statistics can be found under Documentation/CodeCoverageStatistics.
-![Testing Covergae](W:\scienceAndStuff\projects&code\vaccum_Cleaner\Vaccum_Cleaner\Images\CoverageRate.PNG)
+![Testing Covergae](Images\CoverageRate.PNG)
 
 
 #### EP testing has been done for the following funtions:
