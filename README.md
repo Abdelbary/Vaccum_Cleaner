@@ -1,8 +1,7 @@
 # Motor Speed Control Using TDD
-##### Mahmoud Abdelbary
 * this project is implementaion of the Swift Act requirment of Speed Control Module 
 
-###### Requirments can be found under documentation/Requirments.pdf
+#### Requirments can be found under documentation/Requirments.pdf
 
 ### Dependencies:
 1. Ceedling FramWork [link](http://www.throwtheswitch.org/ceedling).
@@ -51,7 +50,7 @@ The project emulate Motor Speed Control system using OS in and output files.
 
 #### 1-Switch Coverage Diagram
 
-![1-Switch Coverage](Images\OneSwCoverage.PNG)
+![1-Switch Coverage](Images/OneSwCoverage.PNG)
 
 * I chossed to skip the leafe branches of the left side tree as it's already tested as part of the right side
 * The test function to test switch coverage are 6 functions one for each branch, The naming convention is:
