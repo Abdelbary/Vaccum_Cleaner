@@ -266,7 +266,7 @@ void test_motor_getAngle_should_return_OK_InNormalOperation(void)
     /*Act*/   
     motor_angles_t act_angle;  
     ERR_t act_motor_err =  motor_getAngel(&act_angle);
-    /*Assert*/
+    /*Assert    */
     TEST_ASSERT_EQUAL_INT(exp_motor_err,act_motor_err);
 } 
 

@@ -321,6 +321,7 @@
   :stdout_pretty_tests_report_path: C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ceedling-0.30.0/lib/../plugins/stdout_pretty_tests_report
   :module_generator_path: C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ceedling-0.30.0/lib/../plugins/module_generator
   :gcov_path: C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/ceedling-0.30.0/lib/../plugins/gcov
+:test_build:
 :gcov:
   :reports:
   - HtmlDetailed

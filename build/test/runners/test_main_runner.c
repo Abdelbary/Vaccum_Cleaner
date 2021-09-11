@@ -13,6 +13,7 @@ char* GlobalOrderError;
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
+extern void test_xxx();
 extern void test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding(void);
 extern void test_main_should_call_motor_init(void);
 extern void test_main_should_call_button_init(void);
@@ -86,9 +87,10 @@ static void run_test(UnityTestFunction func, const char* name, int line_num)
 int main(void)
 {
   UnityBegin("test_main.c");
-  run_test(test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding, "test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding", 18);
-  run_test(test_main_should_call_motor_init, "test_main_should_call_motor_init", 41);
-  run_test(test_main_should_call_button_init, "test_main_should_call_button_init", 57);
+  run_test(test_xxx, "test_xxx", 14);
+  run_test(test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding, "test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding", 21);
+  run_test(test_main_should_call_motor_init, "test_main_should_call_motor_init", 44);
+  run_test(test_main_should_call_button_init, "test_main_should_call_button_init", 60);
 
   CMock_Guts_MemFreeFinal();
   return UnityEnd();

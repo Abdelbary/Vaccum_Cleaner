@@ -4,23 +4,27 @@
   :file: test_main.c
 :successes:
 - :test: test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEnding
-  :line: 18
+  :line: 21
   :message: ''
   :unity_test_time: 0
 - :test: test_main_should_call_motor_init
-  :line: 41
+  :line: 44
   :message: ''
   :unity_test_time: 0
 - :test: test_main_should_call_button_init
-  :line: 57
+  :line: 60
   :message: ''
   :unity_test_time: 0
-:failures: []
+:failures:
+- :test: test_xxx
+  :line: 14
+  :message: Function SpeedControlTask.  Called fewer times than expected.
+  :unity_test_time: 0
 :ignores: []
 :counts:
-  :total: 3
+  :total: 4
   :passed: 3
-  :failed: 0
+  :failed: 1
   :ignored: 0
 :stdout: []
-:time: 0.03664579999167472
+:time: 0.025839700014330447

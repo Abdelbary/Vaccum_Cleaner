@@ -21,7 +21,13 @@ void tearDown(void)
 
 }
 
+void test_xxx()
 
+{
+
+    SpeedControlTask_CMockExpect(16, OK);
+
+}
 
 
 
@@ -49,15 +55,15 @@ void test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEn
 
 
 
-   motor_init_CMockIgnoreAndReturn(28, OK);
+   motor_init_CMockIgnoreAndReturn(31, OK);
 
-   button_init_CMockIgnoreAndReturn(29, OK);
+   button_init_CMockIgnoreAndReturn(32, OK);
 
    unsigned char temp = 1;
 
    while(temp <= 10)
 
-    SpeedControlTask_CMockExpect(32, temp++);
+    SpeedControlTask_CMockExpect(35, temp++);
 
 
 
@@ -69,7 +75,7 @@ void test_main_should_CallSpeedControlTask_TestNum_times_then_return_zeroAfterEn
 
    ((void *)0)
 
-   ), (UNITY_UINT)(36), UNITY_DISPLAY_STYLE_INT);
+   ), (UNITY_UINT)(39), UNITY_DISPLAY_STYLE_INT);
 
 }
 
@@ -95,9 +101,9 @@ void test_main_should_call_motor_init(void)
 
 
 
-    motor_init_CMockExpectAndReturn(49, OK);
+    motor_init_CMockExpectAndReturn(52, OK);
 
-    button_init_CMockIgnoreAndReturn(50, OK);
+    button_init_CMockIgnoreAndReturn(53, OK);
 
 
 
@@ -127,9 +133,9 @@ void test_main_should_call_button_init(void)
 
 
 
-    motor_init_CMockIgnoreAndReturn(65, OK);
+    motor_init_CMockIgnoreAndReturn(68, OK);
 
-    button_init_CMockExpectAndReturn(66, OK);
+    button_init_CMockExpectAndReturn(69, OK);
 
 
 
